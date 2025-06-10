@@ -58,7 +58,7 @@ places = [
         "name": "할리우드 사인 (Hollywood Sign)",
         "location": (34.1341, -118.3215),
         "description": "로스앤젤레스 언덕 위에 위치한 세계적인 상징물입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/hollywood_sign.jpg",
+        "image": "https://media.timeout.com/images/100541963/image.jpg",
         "city": "로스앤젤레스",
         "hotels": ["Hollywood Roosevelt", "Dream Hollywood"],
         "food": ["Musso & Frank Grill", "In-N-Out Burger"]
