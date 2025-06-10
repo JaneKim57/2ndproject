@@ -76,7 +76,7 @@ places = [
         "name": "타호 호수 (Lake Tahoe)",
         "location": (39.0968, -120.0324),
         "description": "여름엔 수상스포츠, 겨울엔 스키로 유명한 다용도 휴양지입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/lake_tahoe.jpg",
+        "image": "https://www.worldatlas.com/r/w1200-q80/upload/b9/b5/1f/lake-tahoe-california-nevada-us-nkneidlphoto.jpg",
         "city": "타호",
         "hotels": ["The Ritz-Carlton", "Edgewood Tahoe"],
         "food": ["Base Camp Pizza", "The Boathouse on the Pier"]
