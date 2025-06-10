@@ -49,7 +49,7 @@ places = [
         "name": "산타모니카 피어 (Santa Monica Pier)",
         "location": (34.0094, -118.4973),
         "description": "놀이공원, 레스토랑, 바다가 어우러진 활기찬 부두입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/santa_monica_pier.jpg",
+        "image": "https://www.travelinusa.us/wp-content/uploads/sites/3/2017/08/Santa-Monica-Pier-Cosa-Vedere-scaled-1.jpg",
         "city": "로스앤젤레스",
         "hotels": ["Shutters on the Beach", "Loews Santa Monica"],
         "food": ["The Lobster", "Blue Plate Taco"]
