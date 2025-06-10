@@ -9,7 +9,7 @@ st.title("🌴 캘리포니아 여행 가이드")
 
 # 상단 GIF 추가 (즐겁게 달리는 강아지 GIF - Google Cloud Storage)
 # 이 GIF는 제가 직접 GCS에 업로드하여 퍼블릭으로 설정한 링크입니다.
-st.image("https://storage.googleapis.com/gemini-chatbot-assets/happy_running_dog.gif", use_container_width=True, caption="귀여운 강아지와 함께 즐거운 여행을 시작해 볼까요?")
+st.image("https://th.bing.com/th/id/R.125f7da5afdcf8bb45462bb1a9b57668?rik=mVKE%2b2UMRQeQxQ&riu=http%3a%2f%2fetorrent.co.kr%2fdata%2fmw.cheditor%2f160223%2fd1c355b5df2b7e59228348de1be779a5_pQJlzA1vDRWfSzNbFA57zJfpelG9NRgG.gif&ehk=dCurPtppIJKrbPgYWQfkYtKv7oYdhWaAnTtijlYjG1M%3d&risl=&pid=ImgRaw&r=0", use_container_width=True, caption="귀여운 강아지와 함께 즐거운 여행을 시작해 볼까요?")
 
 st.markdown("""
 캘리포니아는 아름다운 자연과 도시 문화가 공존하는 미국 최고의 여행지입니다.
