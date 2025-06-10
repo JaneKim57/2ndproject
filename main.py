@@ -40,7 +40,7 @@ places = [
         "name": "디즈니랜드 (Disneyland)",
         "location": (33.8121, -117.9190),
         "description": "세계 최초 디즈니 테마파크로 가족 여행에 최적입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/disneyland.jpg",
+        "image": "https://d2mgzmtdeipcjp.cloudfront.net/files/good/2023/02/07/16757579128783.jpg",
         "city": "애너하임",
         "hotels": ["Disneyland Hotel", "Best Western Plus Park Place"],
         "food": ["Blue Bayou", "Plaza Inn"]
