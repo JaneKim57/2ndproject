@@ -22,7 +22,7 @@ places = [
         "name": "금문교 (Golden Gate Bridge)",
         "location": (37.8199, -122.4783),
         "description": "샌프란시스코의 상징적인 붉은 현수교. 멋진 전망과 사진 명소로 유명합니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/golden_gate_bridge.jpg",
+        "image": "https://cdn.pixabay.com/photo/2016/08/15/18/41/golden-gate-bridge-1596161_960_720.jpg",
         "city": "샌프란시스코",
         "hotels": ["Hotel Nikko", "Fairmont SF"],
         "food": ["Boudin Bakery", "Tartine Bakery"]
