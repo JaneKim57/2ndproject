@@ -7,12 +7,14 @@ st.set_page_config(page_title="캘리포니아 여행 가이드", layout="wide")
 
 st.title("🌴 캘리포니아 여행 가이드")
 
-# 상단 GIF 추가 (더 여행 가고 싶은 느낌의 GIF로 변경)
-st.image("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJkbW00aXQ3N3c2aXh6eG5zZ3dldWswdDMyZzBsaWhpYjV6Z25vOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/27Eak5Lq02uV7WvG2d/giphy.gif", use_column_width=True, caption="캘리포니아 여행을 떠나볼까요?")
+# 상단 GIF 추가 (GIF가 뜨지 않는 문제 해결)
+# Streamlit은 로컬 경로 GIF나 직접적인 Giphy 링크 대신,
+# Giphy의 'media' 링크를 사용하는 것이 더 안정적입니다.
+st.image("https://media.giphy.com/media/27Eak5Lq02uV7WvG2d/giphy.gif", use_container_width=True, caption="캘리포니아 여행을 떠나볼까요?")
 
 st.markdown("""
 캘리포니아는 아름다운 자연과 도시 문화가 공존하는 미국 최고의 여행지입니다.  
-아래에서 명소, 지도, 호텔/식당 정보, 그리고 검색 필터를 확인해보세요.
+아래에서 명소, 지도, 호텔/식당 정보, 그리고 검색 필터를 확인해 보세요.
 """)
 
 # 관광지 데이터 정의 (사진 오류 수정 및 개선)
@@ -136,7 +138,8 @@ for place in places:
     if selected_city != "전체 보기" and place["city"] != selected_city:
         continue
     st.markdown(f"### {place['name']}")
-    st.image(place["image"], use_column_width=True)
+    # DeprecationWarning 해결: use_column_width를 use_container_width로 변경
+    st.image(place["image"], use_container_width=True)
     st.markdown(place["description"])
     st.markdown(f"**🏨 추천 숙소:** {', '.join(place['hotels'])}")
     st.markdown(f"**🍽️ 추천 음식점:** {', '.join(place['food'])}")
