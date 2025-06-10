@@ -94,7 +94,7 @@ places = [
         "name": "데스 밸리 국립공원 (Death Valley National Park)",
         "location": (36.5054, -117.0794),
         "description": "미국에서 가장 건조하고 뜨거운 국립공원입니다. 지형이 매우 독특합니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/death_valley_national_park.jpg",
+        "image": "https://th.bing.com/th/id/OIP.ZkC7FjgTj_rSo_edyDOAtQHaE2?rs=1&pid=ImgDetMain",
         "city": "데스 밸리",
         "hotels": ["The Oasis at Death Valley", "Panamint Springs Resort"],
         "food": ["Timbisha Tacos", "Badwater Saloon"]
