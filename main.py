@@ -31,7 +31,7 @@ places = [
         "name": "요세미티 국립공원 (Yosemite National Park)",
         "location": (37.8651, -119.5383),
         "description": "절경의 폭포, 바위, 숲이 있는 미국 최고의 국립공원 중 하나입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/yosemite_national_park.jpg",
+        "image": "https://th.bing.com/th/id/OIP.CghOP-oqzwz-p7AiGvT1ZAHaEK?rs=1&pid=ImgDetMain",
         "city": "요세미티",
         "hotels": ["The Ahwahnee", "Yosemite Valley Lodge"],
         "food": ["Degnan's Kitchen", "The Mountain Room"]
