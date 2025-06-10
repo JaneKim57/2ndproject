@@ -67,7 +67,7 @@ places = [
         "name": "빅서 (Big Sur)",
         "location": (36.3615, -121.8563),
         "description": "장대한 해안 절벽과 드라이브 코스로 유명한 절경 지역입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/big_sur.jpg",
+        "image": "https://th.bing.com/th/id/OIP.eH2EpvP3uebaB2VY2BEe_gHaEK?rs=1&pid=ImgDetMain",
         "city": "빅서",
         "hotels": ["Post Ranch Inn", "Ventana Big Sur"],
         "food": ["Nepenthe", "Big Sur Bakery"]
