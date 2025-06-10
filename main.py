@@ -103,7 +103,7 @@ places = [
         "name": "나파 밸리 (Napa Valley)",
         "location": (38.5025, -122.2654),
         "description": "세계적으로 유명한 와인 산지로 고급 와이너리 투어가 가능합니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/napa_valley.jpg",
+        "image": "https://cdn.pixabay.com/photo/2016/08/12/23/49/vineyards-1590014_640.jpg",
         "city": "나파",
         "hotels": ["Auberge du Soleil", "Carneros Resort"],
         "food": ["Bouchon Bistro", "The French Laundry"]
