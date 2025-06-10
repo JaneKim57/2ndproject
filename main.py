@@ -16,7 +16,7 @@ st.markdown("""
 아래에서 명소, 지도, 호텔/식당 정보, 그리고 검색 필터를 확인해 보세요.
 """)
 
-# 관광지 데이터 정의 (기존 저작권 및 로드 안정성 확인된 링크 유지)
+# 관광지 데이터 정의 (모든 이미지 링크를 한 줄로, 닫는 따옴표 확인)
 places = [
     {
         "name": "금문교 (Golden Gate Bridge)",
@@ -103,4 +103,42 @@ places = [
         "name": "나파 밸리 (Napa Valley)",
         "location": (38.5025, -122.2654),
         "description": "세계적으로 유명한 와인 산지로 고급 와이너리 투어가 가능합니다.",
-        "image": "
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Napa_Valley_vineyard_at_sunset.jpg/1280px-Napa_Valley_vineyard_at_sunset.jpg", # Wikimedia Commons (CC BY-SA 4.0)
+        "city": "나파",
+        "hotels": ["Auberge du Soleil", "Carneros Resort"],
+        "food": ["Bouchon Bistro", "The French Laundry"]
+    }
+]
+
+# 지역 필터
+cities = sorted(list(set([place["city"] for place in places])))
+selected_city = st.selectbox("🔎 도시 필터", ["전체 보기"] + cities)
+
+# 지도 초기화
+m = folium.Map(location=[36.7783, -119.4179], zoom_start=6)
+
+# 마커 추가
+for place in places:
+    if selected_city != "전체 보기" and place["city"] != selected_city:
+        continue
+    folium.Marker(
+        location=place["location"],
+        popup=place["name"],
+        tooltip=place["name"]
+    ).add_to(m)
+
+# 지도 표시
+st.subheader("🗺️ 관광지 지도")
+st_data = st_folium(m, width=700, height=500)
+
+# 장소 상세 출력
+st.subheader("📍 관광지 상세 안내")
+for place in places:
+    if selected_city != "전체 보기" and place["city"] != selected_city:
+        continue
+    st.markdown(f"### {place['name']}")
+    st.image(place["image"], use_container_width=True) # use_container_width 사용
+    st.markdown(place["description"])
+    st.markdown(f"**🏨 추천 숙소:** {', '.join(place['hotels'])}")
+    st.markdown(f"**🍽️ 추천 음식점:** {', '.join(place['food'])}")
+    st.markdown("---")
