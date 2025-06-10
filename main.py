@@ -85,7 +85,7 @@ places = [
         "name": "샌디에이고 동물원 (San Diego Zoo)",
         "location": (32.7353, -117.1490),
         "description": "세계적인 규모와 다양한 동물종을 자랑하는 샌디에이고 동물원입니다.",
-        "image": "https://storage.googleapis.com/gemini-chatbot-assets/san_diego_zoo.jpg",
+        "image": "https://d2mgzmtdeipcjp.cloudfront.net/files/good/2022/03/15/16473139741350.png",
         "city": "샌디에이고",
         "hotels": ["Hotel del Coronado", "Pendry San Diego"],
         "food": ["The Prado", "Hodad's"]
